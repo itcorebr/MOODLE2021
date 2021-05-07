@@ -50,7 +50,7 @@
             "properties": {
                 "accessTier": "[if(equals(variables('moodleCommon').storageAccountType, 'Premium_LRS'), 'Premium', 'TransactionOptimized')]",
                 "shareQuota": "[int(variables('moodleCommon').fileServerDiskSize)]",
-                "enabledProtocols": "SMB"
+                "enabledProtocols": "NFS"
             }
         }
     ],
