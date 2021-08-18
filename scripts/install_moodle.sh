@@ -1029,4 +1029,3 @@ EOF
    echo "### Script End `date`###"
 
 }  2>&1 | tee /tmp/install.log
-#teste itcore fabio
