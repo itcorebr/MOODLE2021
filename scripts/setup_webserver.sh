@@ -800,3 +800,4 @@ EOF
 
   echo "### Script End `date`###"
 } 2>&1 | tee /tmp/setup.log
+#teste fabio
